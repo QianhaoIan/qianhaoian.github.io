@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
 const ButtonAppBar = function (props) {
     const classes = useStyles();
     const { user, isAuthenticated } = useAuth0();
-    const pathPrefix = "/Floating-Message-Client"
+    const pathPrefix = ""
 
 
     const updateError = () => {

@@ -30,7 +30,7 @@ const GetMessage = React.lazy(() => import('./GetMessage'))
 const App = ({ children, authenticated }) => {
   const { user, isAuthenticated } = useAuth0()
   document.body.style.background = '#bfbfbf12'
-  const pathPrefix = "/Floating-Message-Client"
+  const pathPrefix = ""
 
   return (
     <> 
